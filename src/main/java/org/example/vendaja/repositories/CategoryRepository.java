@@ -1,0 +1,6 @@
+package org.example.vendaja.repositories;
+import org.example.vendaja.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
